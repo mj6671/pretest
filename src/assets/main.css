@@ -1,0 +1,45 @@
+
+* {
+  user-select: none;
+  font-family: "Satoshi", sans-serif;
+  scroll-behavior: smooth;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --rose: #fc3171bf;
+  --rose-dark: #fc3171;
+  --rose-light: #fc317199;
+}
+
+*:not(.cart-view)::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.load-btn {
+  color: white;
+  padding: .5em 1em;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  justify-content: space-between;
+  border: none;
+  outline: none;
+  background-color: #fc3171bf;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
