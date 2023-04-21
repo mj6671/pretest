@@ -82,49 +82,49 @@ export default {
         </div>
 
         <div class="question">
-            6. How do you measure customer satisfaction?
+             6. How do you identify and manage risks in your organization?
             <div class="answers">
-                <span><input type="radio" name="ques6" @click="this.answerScore(5, 0)" /> a. We don't measure customer satisfaction</span>
-                <span><input type="radio" name="ques6" @click="this.answerScore(5, 1)" /> b. Informal feedback</span>
-                <span><input type="radio" name="ques6" @click="this.answerScore(5, 2)" /> c. Formal surveys</span>
-                <span><input type="radio" name="ques6" @click="this.answerScore(5, 3)" /> d. Both formal surveys and informal feedback</span>
+                <span><input type="radio" name="ques6" @click="this.answerScore(5, 0)" />a. No formal nonconformity handling process</span>
+                <span><input type="radio" name="ques6" @click="this.answerScore(5, 1)" />b. Informal risk management process</span>
+                <span><input type="radio" name="ques6" @click="this.answerScore(5, 2)" />c. Formal risk management process</span>
+                <span><input type="radio" name="ques6" @click="this.answerScore(5, 3)" />d. Both informal and formal risk management processes</span>
             </div>
         </div>
 
         <div class="question">
-            7. How do you measure customer satisfaction?
+             7. How do you handle nonconformities in your organization?
             <div class="answers">
-                <span><input type="radio" name="ques7" @click="this.answerScore(6, 0)" /> a. We don't measure customer satisfaction</span>
-                <span><input type="radio" name="ques7" @click="this.answerScore(6, 1)" /> b. Informal feedback</span>
-                <span><input type="radio" name="ques7" @click="this.answerScore(6, 2)" /> c. Formal surveys</span>
-                <span><input type="radio" name="ques7" @click="this.answerScore(6, 3)" /> d. Both formal surveys and informal feedback</span>
+                <span><input type="radio" name="ques7" @click="this.answerScore(6, 0)" /> a. No formal nonconformity handling proces</span>
+                <span><input type="radio" name="ques7" @click="this.answerScore(6, 1)" /> b. Informal nonconformity handling process</span>
+                <span><input type="radio" name="ques7" @click="this.answerScore(6, 2)" /> c. Formal nonconformity handling process</span>
+                <span><input type="radio" name="ques7" @click="this.answerScore(6, 3)" /> d. Both informal and formal nonconformity handling processes</span>
             </div>
         </div>
 
         <div class="question">
-            8. How do you measure customer satisfaction?
+            8. How do you ensure that your processes are efficient and effective?
             <div class="answers">
-                <span><input type="radio" name="ques8" @click="this.answerScore(7, 0)" /> a. We don't measure customer satisfaction</span>
-                <span><input type="radio" name="ques8" @click="this.answerScore(7, 1)" /> b. Informal feedback</span>
-                <span><input type="radio" name="ques8" @click="this.answerScore(7, 2)" /> c. Formal surveys</span>
-                <span><input type="radio" name="ques8" @click="this.answerScore(7, 3)" /> d. Both formal surveys and informal feedback</span>
+                <span><input type="radio" name="ques8" @click="this.answerScore(7, 0)" />a. No formal process improvement process</span>
+                <span><input type="radio" name="ques8" @click="this.answerScore(7, 1)" />b. Informal process improvement process</span>
+                <span><input type="radio" name="ques8" @click="this.answerScore(7, 2)" />c. Formal process improvement process</span>
+                <span><input type="radio" name="ques8" @click="this.answerScore(7, 3)" /> d. Both informal and formal process improvement processes</span>
             </div>
         </div>
 
         <div class="question">
-            9. How do you measure customer satisfaction?
+            9. How do you ensure that your products or services meet customer requirements?
             <div class="answers">
-                <span><input type="radio" name="ques9" @click="this.answerScore(8, 0)" /> a. We don't measure customer satisfaction</span>
+                <span><input type="radio" name="ques9" @click="this.answerScore(8, 0)" />a. No formal process for identifying customer requirements</span>
                 <span><input type="radio" name="ques9" @click="this.answerScore(8, 1)" /> b. Informal feedback</span>
-                <span><input type="radio" name="ques9" @click="this.answerScore(8, 2)" /> c. Formal surveys</span>
-                <span><input type="radio" name="ques9" @click="this.answerScore(8, 3)" /> d. Both formal surveys and informal feedback</span>
+                <span><input type="radio" name="ques9" @click="this.answerScore(8, 2)" />c. Formal process for identifying customer requirements</span>
+                <span><input type="radio" name="ques9" @click="this.answerScore(8, 3)" /> d. Both informal and formal processes for identifying customer requirements</span>
             </div>
         </div>
 
         <div class="question">
-            10. How do you measure customer satisfaction?
+            10. How do you ensure that your products or services are delivered on time?
             <div class="answers">
-                <span><input type="radio" name="ques10" @click="this.answerScore(9, 0)" /> a. We don't measure customer satisfaction</span>
+                <span><input type="radio" name="ques10" @click="this.answerScore(9, 0)" />a. No formal process for tracking delivery times</span>
                 <span><input type="radio" name="ques10" @click="this.answerScore(9, 1)" /> b. Informal feedback</span>
                 <span><input type="radio" name="ques10" @click="this.answerScore(9, 2)" /> c. Formal surveys</span>
                 <span><input type="radio" name="ques10" @click="this.answerScore(9, 3)" /> d. Both formal surveys and informal feedback</span>
@@ -135,49 +135,49 @@ export default {
             11. How do you measure customer satisfaction?
             <div class="answers">
                 <span><input type="radio" name="ques11" @click="this.answerScore(10, 0)" /> a. We don't measure customer satisfaction</span>
-                <span><input type="radio" name="ques11" @click="this.answerScore(10, 1)" /> b. Informal feedback</span>
-                <span><input type="radio" name="ques11" @click="this.answerScore(10, 2)" /> c. Formal surveys</span>
-                <span><input type="radio" name="ques11" @click="this.answerScore(10, 3)" /> d. Both formal surveys and informal feedback</span>
+                <span><input type="radio" name="ques11" @click="this.answerScore(10, 1)" /> b. Informal process for measuring effectiveness</span>
+                <span><input type="radio" name="ques11" @click="this.answerScore(10, 2)" />c. Formal process for measuring effectiveness</span>
+                <span><input type="radio" name="ques11" @click="this.answerScore(10, 3)" /> d. Both informal and formal processes for measuring effectiveness</span>
             </div>
         </div>
 
         <div class="question">
-            12. How do you measure customer satisfaction?
+           12. How do you ensure that your documents and records are controlled?
             <div class="answers">
-                <span><input type="radio" name="ques12" @click="this.answerScore(11, 0)" /> a. We don't measure customer satisfaction</span>
-                <span><input type="radio" name="ques12" @click="this.answerScore(11, 1)" /> b. Informal feedback</span>
-                <span><input type="radio" name="ques12" @click="this.answerScore(11, 2)" /> c. Formal surveys</span>
-                <span><input type="radio" name="ques12" @click="this.answerScore(11, 3)" /> d. Both formal surveys and informal feedback</span>
+                <span><input type="radio" name="ques12" @click="this.answerScore(11, 0)" />a. No formal document control process</span>
+                <span><input type="radio" name="ques12" @click="this.answerScore(11, 1)" /> b. Informal document control process</span>
+                <span><input type="radio" name="ques12" @click="this.answerScore(11, 2)" />c. Formal document control process</span>
+                <span><input type="radio" name="ques12" @click="this.answerScore(11, 3)" />d. Both informal and formal document control processes</span>
             </div>
         </div>
 
         <div class="question">
-            13. How do you measure customer satisfaction?
+          13. How do you ensure that your organization complies with relevant laws and regulations?
             <div class="answers">
-                <span><input type="radio" name="ques13" @click="this.answerScore(12, 0)" /> a. We don't measure customer satisfaction</span>
-                <span><input type="radio" name="ques13" @click="this.answerScore(12, 1)" /> b. Informal feedback</span>
-                <span><input type="radio" name="ques13" @click="this.answerScore(12, 2)" /> c. Formal surveys</span>
-                <span><input type="radio" name="ques13" @click="this.answerScore(12, 3)" /> d. Both formal surveys and informal feedback</span>
+                <span><input type="radio" name="ques13" @click="this.answerScore(12, 0)" /> a. No formal process for identifying relevant laws and regulations</span>
+                <span><input type="radio" name="ques13" @click="this.answerScore(12, 1)" />b. Informal process for identifying relevant laws and regulations</span>
+                <span><input type="radio" name="ques13" @click="this.answerScore(12, 2)" />c. Formal process for identifying relevant laws and regulations</span>
+                <span><input type="radio" name="ques13" @click="this.answerScore(12, 3)" />d. Both informal and formal processes for identifying relevant laws and regulations</span>
             </div>
         </div>
 
         <div class="question">
-            14. How do you measure customer satisfaction?
+           14. How do you ensure that your organization complies with customer requirements?
             <div class="answers">
-                <span><input type="radio" name="ques14" @click="this.answerScore(13, 0)" /> a. We don't measure customer satisfaction</span>
-                <span><input type="radio" name="ques14" @click="this.answerScore(13, 1)" /> b. Informal feedback</span>
-                <span><input type="radio" name="ques14" @click="this.answerScore(13, 2)" /> c. Formal surveys</span>
-                <span><input type="radio" name="ques14" @click="this.answerScore(13, 3)" /> d. Both formal surveys and informal feedback</span>
+                <span><input type="radio" name="ques14" @click="this.answerScore(13, 0)" />a. No formal process for identifying customer requirements</span>
+                <span><input type="radio" name="ques14" @click="this.answerScore(13, 1)" />b. Informal process for identifying customer requirements</span>
+                <span><input type="radio" name="ques14" @click="this.answerScore(13, 2)" />c. Formal process for identifying customer requirements</span>
+                <span><input type="radio" name="ques14" @click="this.answerScore(13, 3)" />d. Both informal and formal processes for identifying customer requirements</span>
             </div>
         </div>
 
         <div class="question">
-            15. How do you measure customer satisfaction?
+           15. How do you ensure that your organization complies with industry standards and best practices?
             <div class="answers">
-                <span><input type="radio" name="ques15" @click="this.answerScore(14, 0)" /> a. We don't measure customer satisfaction</span>
-                <span><input type="radio" name="ques15" @click="this.answerScore(14, 1)" /> b. Informal feedback</span>
-                <span><input type="radio" name="ques15" @click="this.answerScore(14, 2)" /> c. Formal surveys</span>
-                <span><input type="radio" name="ques15" @click="this.answerScore(14, 3)" /> d. Both formal surveys and informal feedback</span>
+                <span><input type="radio" name="ques15" @click="this.answerScore(14, 0)" />a.No formal process for identifying industry standards and best practices</span>
+                <span><input type="radio" name="ques15" @click="this.answerScore(14, 1)" />b. Informal process for identifying industry standards and best practices</span>
+                <span><input type="radio" name="ques15" @click="this.answerScore(14, 2)" />c. Formal process for identifying industry standards and best practices</span>
+                <span><input type="radio" name="ques15" @click="this.answerScore(14, 3)" /> d. Both informal and formal processes for identifying industry standards</span>
             </div>
         </div>
 <!--        
